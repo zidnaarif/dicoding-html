@@ -526,28 +526,28 @@ max-width: 500px;
     border: 1px solid #bbbbbb;
 	box-shadow: 0px 10px 20px -10px rgba(0,0,0,0.75);
 	color: rgb(65, 65, 65);
-	padding-top: 30px;
 	position: relative;
+	padding-top: 30px;
 	width: 350px;
 	max-width: 100%;
 	text-align: center;
 }
 
 .card-container .pro {
-	color: #231E39;
-	background-color: #FEBB0B;
+	position: absolute;
 	border-radius: 3px;
+	background-color: #FEBB0B;
+	color: #231E39;
 	font-size: 14px;
 	font-weight: bold;
 	padding: 3px 7px;
-	position: absolute;
 	top: 30px;
 	left: 30px;
 }
 
 .card-container .round {
+    border-radius: 50%;
 	border: 1px solid #FF5F46;
-	border-radius: 50%;
 	padding: 7px;
 }
 
@@ -559,8 +559,8 @@ max-width: 500px;
     margin-top: 10px;
 }
 .card-container h6 {
-    margin-bottom: 5px;
     font-size: 12px;
+    margin-bottom: 5px;
 }
 .card-container p {
     margin: 10px;
@@ -570,10 +570,10 @@ max-width: 500px;
     margin: 20px;
 }
 button.primary {
-    color: #ffffff;
-    background-color: #FF5F46;
     border: none;
 	border-radius: 50px;
+    color: #ffffff;
+    background-color: #FF5F46;
 	font-weight: 500;
 	padding: 10px 25px;
     cursor: pointer;
@@ -589,18 +589,18 @@ button.primary {
 }
 
 .skills ul {
-	list-style-type: none;
-	margin: 0;
+    margin: 0;
 	padding: 0;
+	list-style-type: none;
 }
 
 .skills ul li {
+	display: inline-block;
 	border: 1px solid #2D2747;
 	border-radius: 2px;
-	display: inline-block;
 	font-size: 12px;
-    font-style: italic;
 	margin: 0 7px 7px 0;
+    font-style: italic;
 	padding: 7px;
 }
 
